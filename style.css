@@ -1,0 +1,34 @@
+body{
+	background:#D96459;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
+h2{
+	font-size:52px;
+	margin-bottom: 50px;
+}
+.message{
+	background:#F2E394;
+	border:none;
+}
+button.btn{
+	padding:10px 30px;
+	background-color:#588C73;
+	font-size:18px;
+	margin-bottom:30px;
+}
+button.btn:hover{
+	background-color:#8C4646;
+	color:#fff;
+}
+button.btn, 
+button.btn:active, 
+button.btn:focus,
+button.btn:visited {
+    outline: none !important;
+    color: #fff;
+}
+
+.fullQuote{
+	font-size:24px;
+}
