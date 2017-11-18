@@ -15,11 +15,5 @@ $(document).ready(function(){
 	$("#newQuote").on("click", function(){
 		getQuote();
 	});
-	/*$("#getQuote").on("click", function(){
-		$.ajaxSetup({cache:false});
-		$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&callback=", function(json){
-			$(".message").html(json[0].content + "— " + json[0].title)
-		});
-
-	});*/
+	
 });
